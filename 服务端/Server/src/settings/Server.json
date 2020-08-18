@@ -1,0 +1,12 @@
+{
+  "Host":"0.0.0.0",
+  "TcpPort":8999,
+  "MaxPacketSize": 4096,
+  "MaxConn": 12000,
+  "MaxHeath":1000,
+  "WorkerPoolSize":10,
+  "MaxWorkerSize":1024,
+  "PlayerNum":4,
+  "Time":100,
+	"MySQLLink":"root:123456@tcp(172.20.80.42:3306)/server?charset=utf8"
+}
